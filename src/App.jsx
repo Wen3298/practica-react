@@ -1,10 +1,10 @@
 import { useState } from 'react'
 import './App.css'
 import Estructura from './Components/Estructura'
-import POSTDATA from './js/fetch'
+//import postData from './js/fetch'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0) 
 
   return (
     <>
